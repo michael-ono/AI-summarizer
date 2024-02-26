@@ -7,7 +7,11 @@ const App = () => {
         <main>
             <div className='main'>
                 <div className='gradient' />
-               App
+            </div>
+
+            <div className='app'>
+                <Hero />
+                <Demo />
             </div>
         </main>
     )
