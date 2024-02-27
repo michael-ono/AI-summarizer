@@ -13,13 +13,20 @@ const Demo = () => {
           <img src={linkIcon} alt="link_icon" className="absolute left-0 my-2 ml-3 w-5" />
 
           <input 
-              type="text" 
-              placeholder="Enter a url"
-              value=""
-              onChange={() => {}}
-              required
-              className="url_input peer"
-            />
+            type="url" 
+            placeholder="Enter a url"
+            value=""
+            onChange={() => {}}
+            required
+            className="url_input peer"
+          />
+
+            <button
+              type="url"
+              className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
+            >
+              <p>↵</p>
+            </button>
         </form>
 
       </div>
