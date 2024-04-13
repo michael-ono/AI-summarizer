@@ -1,5 +1,5 @@
 import { useState } from "react";
-const Register = () => {
+const Signup = () => {
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -99,4 +99,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Signup;
